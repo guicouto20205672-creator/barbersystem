@@ -26,9 +26,20 @@ A configuração foi baseada no exemplo oficial de Docker Compose da documentaç
    - `AUTH_JWT_SECRET`: use um valor aleatório longo e exclusivo.
 4. Não envie o arquivo `.env` para o GitHub e não compartilhe capturas que revelem os valores.
 
+## Preparação no Windows
+
+Abra o PowerShell dentro da pasta do projeto e execute:
+
+```powershell
+Copy-Item .env.example .env
+notepad .env
+```
+
+No Bloco de Notas, substitua a senha de exemplo em `POSTGRES_PASSWORD` e também dentro de `DB_DSN`. Defina um valor aleatório longo para `AUTH_JWT_SECRET`, salve e feche o arquivo.
+
 ## Inicialização
 
-No terminal, dentro da pasta do projeto:
+No PowerShell, dentro da pasta do projeto:
 
 ```bash
 docker compose pull

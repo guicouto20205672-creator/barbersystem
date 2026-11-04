@@ -1,0 +1,16 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Persistent local data
+data/
+postgres-data/
+custom-extensions/*
+
+# Local logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

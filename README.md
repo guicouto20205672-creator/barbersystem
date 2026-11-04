@@ -36,7 +36,9 @@ Construir um produto comercial confiável para barbearias pequenas, médias e gr
 - [Visão geral da arquitetura](docs/arquitetura/overview.md)
 - [Escopo funcional da V1](docs/requisitos/escopo-v1.md)
 - [Dashboard — especificação BS-UI-001](docs/telas/dashboard.md)
+- [Agenda — especificação BS-UI-002](docs/telas/agenda.md)
 - [ADR-001 — isolamento de dados por tenant](docs/decisoes/ADR-001-isolamento-tenant.md)
+- [ADR-002 — prova de conceito Corteza](docs/decisoes/ADR-002-corteza-prova-de-conceito.md)
 
 ## Estado das decisões técnicas
 
